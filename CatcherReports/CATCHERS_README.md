@@ -34,7 +34,9 @@ Read more here: https://quinnbooth.substack.com/p/cape-league-catcher-reports
 **File Structure**
 
   StrikeProbabilityModel.py : After feature selection, model type testing and training, the best model I had for strikes prediction.
+	
   CatcherSLAAPercentiles.py : Scores catchers with percentiles, showing their rank among other Cape League catchers.
+	
   ImprovedCatcherReports.py : Main script. Brings model and percentiles together along with graphs and generates the PDF.
 
 **ImprovedCatcherReports.py Functions:**
