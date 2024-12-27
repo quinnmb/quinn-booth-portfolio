@@ -276,9 +276,6 @@ def main():
 
 main()
 
-# at the end: user interface where you can input team and
-# for unique player values of that team it goes through the whole process, generating folders and the pdfs to put inside them. Can remove dead players later
-
 # Base stats table
     # G
     # PA
