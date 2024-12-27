@@ -9,4 +9,5 @@ Welcome to my Github Portfolio! So far, I have three projects uploaded:
 Each one of these projects has a seperate README file inside their folder for further explanation.
 
 Explanations of my process on some of these projects, plus others, are available here: https://quinnbooth.substack.com/
+
 I also post some of my work on Twitter: https://x.com/QuinnmBooth
