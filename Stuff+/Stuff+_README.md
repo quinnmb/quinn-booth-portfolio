@@ -1,6 +1,6 @@
 README
 
-**Overview**
+**Overview:**
 This project builds a machine learning model to predict the value of a pitch (Pitch_Value) based on Trackman and pitcher data. 
 It organizes pitches into three categories—Fast, Breaking, and Offspeed to compare/regress pitches to their similar type.
 
