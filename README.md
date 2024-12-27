@@ -10,4 +10,6 @@ Each one of these projects has a seperate README file inside their folder for fu
 
 Explanations of my process on some of these projects, plus others, are available here: https://quinnbooth.substack.com/
 
+If you want to connect with me or talk about this portfolio, please message me on LinkedIn: https://www.linkedin.com/in/quinnmbooth/
+
 I also post some of my work on Twitter: https://x.com/QuinnmBooth
