@@ -67,9 +67,3 @@ Read more here: https://quinnbooth.substack.com/p/cape-league-catcher-reports
 
   user_interface(): Allows user to type in a catcher's name and a date to get their PDF. Name must be Last, First and Date is either yyyy-mm-dd or 'all'
 
-**Generate Reports:**
-
-  Visualizations and tables are added to a PDF.
-
-  Save and share reports for detailed analysis.
-
