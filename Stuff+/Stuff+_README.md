@@ -4,6 +4,10 @@ README
 This project builds a machine learning model to predict the value of a pitch (Pitch_Value) based on Trackman and pitcher data. 
 It organizes pitches into three categories—Fast, Breaking, and Offspeed to compare/regress pitches to their similar type.
 
+**File Overview:**
+- stuff+.py : Trains the model. I tested with several different feature combinations and model types before tuning the model for best possible performance.
+- overall_grading.py : This script takes the model Run Value predictions and uses them to grade each NCAA D1 pitcher's offerings at the 100 scale.
+
 **Libraries Used**
 - pandas
 - numpy
@@ -76,17 +80,10 @@ Offspeed: Includes changeups and splitters.
    - Train an XGBoost model for each pitch group.
    - Evaluate model performance.
 
-4. **Results**:
+4. **Model Results**:
    - Save the trained model (xgb_stuff_plus_{pitchgroup}_v{version}.pkl).
    - Output accuracy metrics (accuracy_df).
-
-**Output**
-- Model Files
-  - Saved XGBoost models for each pitch group in .pkl format.
-
-- Accuracy DataFrame
-  - Metrics for each pitch group:
-    - Mean Squared Error (MSE)
-    - Root Mean Squared Error (RMSE)
-    - Mean Absolute Error (MAE)
-
+  
+5. **Model Predictions:**
+   - Uses the trained model to predict run values for each pitches.
+   - overall_grading.py takes team code input and grades each pitch for pitchers on that team. 
